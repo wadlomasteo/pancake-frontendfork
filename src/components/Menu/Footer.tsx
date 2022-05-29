@@ -44,7 +44,7 @@ const Footer: React.FC<{ variant?: FooterVariant; helpUrl?: string }> = ({
 }) => {
   const { t } = useTranslation()
   const isSide = variant === 'side'
-  return (<Wrapper $isSide={isSide}></Wrapper>)
+  return (<Wrapper $isSide={isSide}/>)
   
 }
 
