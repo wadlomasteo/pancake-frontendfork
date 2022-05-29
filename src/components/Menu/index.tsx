@@ -32,20 +32,20 @@ const Menu = (props) => {
       linkComponent={(linkProps) => {
         return <NextLinkFromReactRouter to={linkProps.href} {...linkProps} prefetch={false} />
       }}
-      userMenu={}
-      globalMenu={}
-      banner={}
+      userMenu={undefined}
+      globalMenu={undefined}
+      banner={undefined}
       isDark={isDark}
       toggleTheme={toggleTheme}
       currentLang={currentLanguage.code}
       langs={languageList}
       setLang={setLanguage}
-      cakePriceUsd={}
-      links={}
-      subLinks={}
-      footerLinks={}
-      activeItem={}
-      activeSubItem={}
+      cakePriceUsd={undefined}
+      links={undefined}
+      subLinks={undefined}
+      footerLinks={undefined}
+      activeItem={undefined}
+      activeSubItem={undefined}
       buyCakeLabel={t('Buy Viva')}
       {...props}
     />
