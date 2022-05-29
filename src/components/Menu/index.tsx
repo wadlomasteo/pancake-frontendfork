@@ -28,26 +28,7 @@ const Menu = (props) => {
   }, [setTheme, isDark])
 
   return (
-    <UikitMenu
-      linkComponent={(linkProps) => {
-        return <NextLinkFromReactRouter to={linkProps.href} {...linkProps} prefetch={false} />
-      }}
-      userMenu={<UserMenu />}
-      globalMenu={<GlobalSettings />}
-      isDark={isDark}
-      toggleTheme={toggleTheme}
-      currentLang={currentLanguage.code}
-      langs={languageList}
-      setLang={setLanguage}
-      cakePriceUsd={cakePriceUsd.toNumber()}
-      links={menuItems}
-      subLinks={activeMenuItem?.hideSubNav || activeSubMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
-      footerLinks={footerLinks(t)}
-      activeItem={activeMenuItem?.href}
-      activeSubItem={activeSubMenuItem?.href}
-      buyCakeLabel={t('Buy CAKE')}
-      {...props}
-    />
+    <UikitMenu />
   )
 }
 
