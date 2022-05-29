@@ -35,14 +35,6 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
       },
       {
         label: t(''),
-        href: '/limit-orders',
-      },
-      {
-        label: t(''),
-        href: '/liquidity',
-      },
-      {
-        label: t(''),
         href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT`,
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
