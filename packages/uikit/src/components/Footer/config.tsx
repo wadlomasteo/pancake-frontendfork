@@ -4,73 +4,73 @@ import { TwitterIcon, TelegramIcon, RedditIcon, InstagramIcon, GithubIcon, Disco
 
 export const footerLinks: FooterLinkType[] = [
   {
-    label: "About",
+    label: "",
     items: [
       {
-        label: "Contact",
-        href: "https://docs.pancakeswap.finance/contact-us",
+        label: "",
+        href: "",
       },
       {
-        label: "Blog",
-        href: "https://pancakeswap.medium.com/",
+        label: "",
+        href: "",
       },
       {
-        label: "Community",
-        href: "https://docs.pancakeswap.finance/contact-us/telegram",
+        label: "",
+        href: "",
       },
       {
-        label: "CAKE",
-        href: "https://docs.pancakeswap.finance/tokenomics/cake",
+        label: "",
+        href: "",
       },
       {
-        label: "—",
+        label: "",
       },
       {
-        label: "Online Store",
-        href: "https://pancakeswap.creator-spring.com/",
+        label: "",
+        href: "",
         isHighlighted: true,
       },
     ],
   },
   {
-    label: "Help",
+    label: "",
     items: [
       {
-        label: "Customer",
-        href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
+        label: "",
+        href: "",
       },
       {
-        label: "Troubleshooting",
-        href: "https://docs.pancakeswap.finance/help/troubleshooting",
+        label: "",
+        href: "",
       },
       {
-        label: "Guides",
-        href: "https://docs.pancakeswap.finance/get-started",
+        label: "",
+        href: "",
       },
     ],
   },
   {
-    label: "Developers",
+    label: "",
     items: [
       {
-        label: "Github",
-        href: "https://github.com/pancakeswap",
+        label: "",
+        href: "",
       },
       {
-        label: "Documentation",
-        href: "https://docs.pancakeswap.finance",
+        label: "",
+        href: "",
       },
       {
-        label: "Bug Bounty",
-        href: "https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty",
+        label: "",
+        href: "",
       },
       {
-        label: "Audits",
-        href: "https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        label: "",
+        href: "",
       },
       {
-        label: "Careers",
-        href: "https://docs.pancakeswap.finance/hiring/become-a-chef",
+        label: "",
+        href: "",
       },
     ],
   },
@@ -78,100 +78,100 @@ export const footerLinks: FooterLinkType[] = [
 
 export const socials = [
   {
-    label: "Twitter",
+    label: "",
     icon: TwitterIcon,
-    href: "https://twitter.com/pancakeswap",
+    href: "",
   },
   {
-    label: "Telegram",
+    label: "",
     icon: TelegramIcon,
     items: [
       {
-        label: "English",
-        href: "https://t.me/pancakeswap",
+        label: "",
+        href: "",
       },
       {
-        label: "Bahasa Indonesia",
-        href: "https://t.me/PancakeSwapIndonesia",
+        label: "",
+        href: "",
       },
       {
-        label: "中文",
-        href: "https://t.me/PancakeSwap_CN",
+        label: "",
+        href: "",
       },
       {
-        label: "Tiếng Việt",
-        href: "https://t.me/PancakeSwapVN",
+        label: "",
+        href: "",
       },
       {
-        label: "Italiano",
-        href: "https://t.me/pancakeswap_ita",
+        label: "",
+        href: "",
       },
       {
-        label: "русский",
-        href: "https://t.me/pancakeswap_ru",
+        label: "",
+        href: "",
       },
       {
-        label: "Türkiye",
-        href: "https://t.me/pancakeswapturkiye",
+        label: "",
+        href: "",
       },
       {
-        label: "Português",
-        href: "https://t.me/PancakeSwapPortuguese",
+        label: "",
+        href: "",
       },
       {
-        label: "Español",
-        href: "https://t.me/PancakeswapEs",
+        label: "",
+        href: "",
       },
       {
-        label: "日本語",
-        href: "https://t.me/pancakeswapjp",
+        label: "",
+        href: "",
       },
       {
-        label: "Français",
-        href: "https://t.me/pancakeswapfr",
+        label: "",
+        href: "",
       },
       {
-        label: "Deutsch",
-        href: "https://t.me/PancakeSwap_DE",
+        label: "",
+        href: "",
       },
       {
-        label: "Filipino",
-        href: "https://t.me/Pancakeswap_Ph",
+        label: "",
+        href: "",
       },
       {
-        label: "ქართული ენა",
-        href: "https://t.me/PancakeSwapGeorgia",
+        label: "",
+        href: "",
       },
       {
-        label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
+        label: "",
+        href: "",
       },
     ],
   },
   {
-    label: "Reddit",
+    label: "",
     icon: RedditIcon,
-    href: "https://reddit.com/r/pancakeswap",
+    href: "",
   },
   {
-    label: "Instagram",
+    label: "",
     icon: InstagramIcon,
-    href: "https://instagram.com/pancakeswap_official",
+    href: "",
   },
   {
-    label: "Github",
+    label: "",
     icon: GithubIcon,
-    href: "https://github.com/pancakeswap/",
+    href: "",
   },
   {
-    label: "Discord",
+    label: "",
     icon: DiscordIcon,
-    href: "https://discord.gg/pancakeswap",
+    href: "",
   },
   {
-    label: "Medium",
+    label: "",
     icon: MediumIcon,
-    href: "https://pancakeswap.medium.com/",
+    href: "",
   },
 ];
 
