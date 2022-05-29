@@ -1,5 +1,9 @@
 # 🥞 Pancake Frontend
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a1e352d-df2b-4fea-b937-be742bdbb6a8/deploy-status)](https://app.netlify.com/sites/bejewelled-mandazi-1f80fb/deploys)
+
+
+
 This project contains the main features of the pancake application.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
