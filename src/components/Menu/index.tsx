@@ -19,7 +19,6 @@ const Menu = (props) => {
   const cakePriceUsd = usePriceCakeBusd()
   const { currentLanguage, setLanguage, t } = useTranslation()
   const { pathname } = useRouter()
-  const [showPhishingWarningBanner] = usePhishingBannerManager()
 
   const menuItems = useMenuItems()
 
@@ -37,7 +36,6 @@ const Menu = (props) => {
       }}
       userMenu={<UserMenu />}
       globalMenu={<GlobalSettings />}
-      banner={showPhishingWarningBanner && typeof window !== 'undefined' && <PhishingWarningBanner />}
       isDark={isDark}
       toggleTheme={toggleTheme}
       currentLang={currentLanguage.code}
