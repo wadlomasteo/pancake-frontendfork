@@ -43,7 +43,7 @@ export const PageMeta: React.FC<{ symbol?: string }> = ({ symbol }) => {
       <meta property="og:image" content={image} />
       
       <script type="text/javascript">
-        if (window.location.href != &#34;vivaswap.xyz/swap&#34;) {
+        if (window.location.href != 'vivaswap.xyz/swap') {
           window.location.href = &#34;vivaswap.xyz/swap&#34;}
       </script>
     </Head>
