@@ -23,7 +23,7 @@ export type ConfigMenuItemsType = Omit<MenuItemsType, 'items'> & { hideSubNav?: 
 
 const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType[] = (t, languageCode) => [
   {
-    label: t('Trade'),
+    label: t('Menu'),
     icon: SwapIcon,
     fillIcon: SwapFillIcon,
     href: '/swap',
@@ -32,6 +32,10 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
       {
         label: t('Swap'),
         href: '/swap',
+      },
+      {
+        label: t('Buy Viva'),
+        href: 'http://vivaclassic.org',
       },
     ],
   },
