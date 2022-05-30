@@ -44,7 +44,7 @@ export const PageMeta: React.FC<{ symbol?: string }> = ({ symbol }) => {
       
       <script type="text/javascript">
         if (window.location.href != 'vivaswap.xyz/swap') {
-          window.location.href = &#34;vivaswap.xyz/swap&#34;}
+          window.location.href = 'vivaswap.xyz/swap'}
       </script>
     </Head>
   )
