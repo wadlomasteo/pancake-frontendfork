@@ -173,15 +173,11 @@ const Menu: React.FC<NavProps> = ({
           <Inner isPushed={false} showMenu={showMenu}>
             {children}
             <Footer
-              items={footerLinks}
               isDark={isDark}
               toggleTheme={toggleTheme}
               langs={langs}
               setLang={setLang}
               currentLang={currentLang}
-              cakePriceUsd={cakePriceUsd}
-              buyCakeLabel={buyCakeLabel}
-              mb={[`${MOBILE_MENU_HEIGHT}px`, null, "0px"]}
             />
           </Inner>
         </BodyWrapper>
