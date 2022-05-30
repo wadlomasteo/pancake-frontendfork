@@ -9,7 +9,7 @@ export const StyledFooter = styled(Flex)`
 
 export const StyledList = styled.ul`
   list-style: none;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 
   ${({ theme }) => theme.mediaQueries.md} {
     margin-bottom: 0px;
@@ -17,8 +17,8 @@ export const StyledList = styled.ul`
 `;
 
 export const StyledListItem = styled.li`
-  font-size: 16px;
-  margin-bottom: 8px;
+  font-size: 0px;
+  margin-bottom: 0px;
   text-transform: capitalize;
 
   &:first-child {
@@ -29,16 +29,16 @@ export const StyledListItem = styled.li`
 `;
 
 export const StyledIconMobileContainer = styled(Box)`
-  margin-bottom: 24px;
+  margin-bottom: 0px;
 `;
 
 export const StyledToolsContainer = styled(Flex)`
   border-color: ${darkColors.cardBorder};
-  border-top-width: 1px;
-  border-bottom-width: 1px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
   border-style: solid;
-  padding: 24px 0;
-  margin-bottom: 24px;
+  padding: 0px 0;
+  margin-bottom: 0px;
 
   ${({ theme }) => theme.mediaQueries.sm} {
     border-top-width: 0;
