@@ -31,17 +31,17 @@ const MenuItem: React.FC<FooterProps> = ({
   ...props
 }) => {
   return (
-    <StyledFooter p={["40px 16px", null, "56px 40px 32px 40px"]} {...props} justifyContent="center">
-      <Flex flexDirection="column" width={["100%", null, "1200px;"]}>
+    <StyledFooter p={["0px 0px", null, "0px 0px 0px 0px"]} {...props} justifyContent="center">
+      <Flex flexDirection="column" width={["0%", null, "0;"]}>
         <StyledIconMobileContainer display={["block", null, "none"]}>
-          <LogoWithTextIcon isDark width="130px" />
+          <LogoWithTextIcon isDark width="0px" />
         </StyledIconMobileContainer>
         <Flex
           order={[2, null, 1]}
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
           alignItems="flex-start"
-          mb={["42px", null, "36px"]}
+          mb={["0px", null, "0px"]}
         >
           {items?.map((item) => (
             <StyledList key={item.label}>
@@ -66,10 +66,10 @@ const MenuItem: React.FC<FooterProps> = ({
             </StyledList>
           ))}
           <Box display={["none", null, "block"]}>
-            <LogoWithTextIcon isDark width="160px" />
+            <LogoWithTextIcon isDark width="0px" />
           </Box>
         </Flex>
-        <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
+        <StyledSocialLinks order={[2]} pb={["0px", null, "0px"]} mb={["0", null, "0px"]} />
         <StyledToolsContainer
           order={[1, null, 3]}
           flexDirection={["column", null, "row"]}
@@ -85,8 +85,8 @@ const MenuItem: React.FC<FooterProps> = ({
               dropdownPosition="top-right"
             />
           </Flex>
-          <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
-            <Box mr="20px">
+          <Flex order={[1, null, 2]} mb={["0px", null, "0"]} justifyContent="space-between" alignItems="center">
+            <Box mr="0px">
               <CakePrice cakePriceUsd={cakePriceUsd} color={darkColors.textSubtle as keyof Colors} />
             </Box>
             <Button
