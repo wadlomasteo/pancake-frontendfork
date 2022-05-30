@@ -137,7 +137,7 @@ const Menu: React.FC<NavProps> = ({
             </Flex>
             <Flex alignItems="center" height="100%">
               {!isMobile && !isMd && (
-                <Box mr="12px">
+                <Box mr="0px">
                   <CakePrice showSkeleton={false} cakePriceUsd={cakePriceUsd} />
                 </Box>
               )}
@@ -169,7 +169,7 @@ const Menu: React.FC<NavProps> = ({
             )}
           </Flex>
         )}
-        <BodyWrapper mt="0px" : "0"}>
+        <BodyWrapper mt={!subLinks ? `${totalTopMenuHeight + 1}px` : "0"}>
           <Inner isPushed={false} showMenu={showMenu}>
             {children}
             <Footer
