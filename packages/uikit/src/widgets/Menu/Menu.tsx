@@ -72,14 +72,12 @@ const Menu: React.FC<NavProps> = ({
   toggleTheme,
   currentLang,
   setLang,
-  cakePriceUsd,
   links,
   subLinks,
   footerLinks,
   activeItem,
   activeSubItem,
   langs,
-  buyCakeLabel,
   children,
 }) => {
   const { isMobile, isMd } = useMatchBreakpoints();
@@ -137,9 +135,7 @@ const Menu: React.FC<NavProps> = ({
             </Flex>
             <Flex alignItems="center" height="100%">
               {!isMobile && !isMd && (
-                <Box mr="12px">
-                  <CakePrice showSkeleton={false} cakePriceUsd={cakePriceUsd} />
-                </Box>
+                <Box mr="12px"/>
               )}
               <Box mt="4px">
                 <LangSelector
