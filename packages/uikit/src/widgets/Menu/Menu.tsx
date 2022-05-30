@@ -169,7 +169,7 @@ const Menu: React.FC<NavProps> = ({
             )}
           </Flex>
         )}
-        <BodyWrapper mt={!subLinks ? `${totalTopMenuHeight + 1}px` : "0"}>
+        <BodyWrapper mt="0px" : "0"}>
           <Inner isPushed={false} showMenu={showMenu}>
             {children}
             <Footer
